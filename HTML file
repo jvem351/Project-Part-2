@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Think Global Org</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src = "script.js"></script>
+		<div>
+      <element class = "head">
+        <h1>Think Global</h1>
+        <element class = "sub">
+        <h2>A quest to chase your dreams!</h2>
+        </element>
+      </element>
+<hr>
+    <div class = "row">
+      <div class = "carousel-slide"text-align: center>
+        <img src = "images/image1.jpg" alt = "" >
+      </div>
+    <div class = "col-7">
+        <h3>Why us?</h3>
+        <p>We provide an eccelent opportunity for university students who would like to explore and understand new cultures and religions through exchange programs. We will assist you on your quest and help you experience different aspects of the world whilst making your journey unforgettable.</P>
+    </div>
+    </div>
+<hr>
+    <div class = "container">
+      <h3>Intern Abroad</h3>
+      <p id="demo">Paid Internship<br>Choice of 10 countries<br>Period: 6-8 Months</p>
+
+      <button type="button" onclick='document.getElementById("demo").innerHTML = "Work abroad and develop your skill set with entry level positions at MNCs"'>Learn More</button>
+
+      <h3>Talent Abroad</h3>
+      <p id = "demo1">Paid Internship<br>Choice of 5 Countries<br>Period: 9-12 momths</p>
+
+      <button type="button" onclick='document.getElementById("demo1").innerHTML = "Show your passion and imrove your expertise in what you are good at"'>Learn More</button>
+
+      <h3>Local to Global</h3>
+      <p id = "demo2">Paid Internship<br>8 distinct corportations<br>Period: 6-18 momths</p>
+
+      <button type="button" onclick='document.getElementById("demo2").innerHTML = "Use your cultural roots to address global issues and work on developing a sustainable skill set"'>Learn More</button>
+
+      <h3>The Changing World</h3>
+      <p id = "demo3">Paid Internship<br>Choice of 25 Countries<br>Period: 9-12 momths</p>
+
+      <button type="button" onclick='document.getElementById("demo3").innerHTML = "Help develop and transform the changing world with the use of Artificial Intelligence"'>Learn More</button>
+
+      <h3>Culture and Leadership</h3>
+      <p id = "demo4">Unpaid Internship<br>Travel around 4 counries<br>Span of 12-24 months</p>
+
+      <button type="button" onclick='document.getElementById("demo4").innerHTML = "Experience the worlds different cultures while leading a team to work around different areas around the business. (Travel Expenses included) "'>Learn More</button>
+    </div>
+
+  </body>
+
+  <script src = "script.js"></script>
+</html>
